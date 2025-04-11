@@ -11,7 +11,7 @@ ohio:
 california:
 	terraform workspace select -or-create california
 	terraform init
-	terraform apply -var-file california.tfvars -auto-approve
+	terraform apply -var-file california.tfvarterrs -auto-approve
 
 oregon:
 	terraform workspace select -or-create oregon
