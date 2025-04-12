@@ -4,5 +4,6 @@ module "vpc1" {
 
   vpc_cidar = "172.31.0.0/16"
   subnet1_cidar = "172.31.1.0/24"
-  environment = "stage"
+  subnet2_cidar = "172.31.1.0/24"
+  environment = "qa"
 } 
